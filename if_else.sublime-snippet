@@ -3,11 +3,11 @@
     <content><![CDATA[
 if ${1:expression} then 
 begin
-	$0
+	$2
 end
 else 
 begin
-	$0
+	$3
 end;
 ]]></content>
 	<description>statement with else</description>
